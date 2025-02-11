@@ -4,19 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c1ae423a-cf83-4323-a0db-ae195cdfd071" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="c1ae423a-cf83-4323-a0db-ae195cdfd071" name="Changes" comment="proyecto API">
       <change afterPath="$PROJECT_DIR$/PortafolioAutomatizacion" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/runners/RunCucumberTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/steps/APIStepDefinitions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/steps/ExtentReportListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/steps/Hooks.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/api_test.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/steps/APIStepDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/APIStepDefinitions.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,6 +90,15 @@
       <option name="presentableId" value="Default" />
       <updated>1738953255716</updated>
     </task>
+    <task id="LOCAL-00001" summary="proyecto API">
+      <option name="closed" value="true" />
+      <created>1739306947598</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1739306947598</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -115,5 +114,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="proyecto API" />
+    <option name="LAST_COMMIT_MESSAGE" value="proyecto API" />
   </component>
 </project>

@@ -3,7 +3,6 @@ package steps;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.restassured.response.Response;
-import org.openqa.selenium.devtools.v85.fetch.model.AuthChallengeResponse;
 import static io.restassured.RestAssured.given;
 import static org.junit.jupiter.api.Assertions.*;
 
