@@ -15,17 +15,18 @@ public class APIStepDefinitions {
     // obtener el token
     @Given("I request a token with valid credentials")
     public void iRequestATokenWithValidCredentials(){
-        //Enviar credenciales para solicitar rocken
+        //Enviar credenciales para solicitar token
         response = given()
                 .header("Content-Type", "application/json")
                 .body("{\"email\": \"eve.holt@reqres.in\", \"password\": \"cityslicka\"}")
                 .when()
                 .post("https://reqres.in/api/login");
 
-        //obtener respuesta del tocken
+        //obtener respuesta del tocken y se guarda en variable
         token = response.jsonPath().getString("token");
     }
 
+    //validando que el tocken no ese vacion
     @Then("I should receive a valid token")
     public void iShouldReceiveAValidToken() {
         // Verificar que el token no sea nulo ni vacío
@@ -34,7 +35,7 @@ public class APIStepDefinitions {
     }
 
 
-   //traer registro pagina dos
+   //traer todos los registros pagina dos.
 
     @Then("I get all register about two {string}")
     public void IGetAllRegisterAbout(String url){
