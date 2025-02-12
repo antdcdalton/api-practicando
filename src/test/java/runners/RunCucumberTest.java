@@ -9,7 +9,7 @@ import org.junit.runner.RunWith;
         monochrome=true,
         features = "src/test/resources/features",  // Ruta donde están los archivos .feature
         glue = "steps",                           // Ruta donde están las clases Step Definitions
-        plugin = {"pretty", "html:target/cucumber-reports/cucumber-reports.html","json:target/cucumber-reports/Cucumber.json"}
+        plugin = {"pretty", "html:target/cucumber-reports.html","json:target/Cucumber.json"}
 )
 public class RunCucumberTest {
 }
