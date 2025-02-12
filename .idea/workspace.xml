@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="c1ae423a-cf83-4323-a0db-ae195cdfd071" name="Changes" comment="proyecto API">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/steps/APIStepDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/APIStepDefinitions.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
